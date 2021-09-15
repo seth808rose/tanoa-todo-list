@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #541caf, #c4b5dd);
+  font-family: "Courier New", Courier, monospace;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.2rem;
+}
+
+header,
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  border: none;
+  color: white;
+}
+
+.form-input,
+.form-input-btn {
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.form-input-btn {
+  transition: all 0.3s linear;
+  background: linear-gradient(to right, #541caf, #c4b5dd);
+  color: white;
+  cursor: pointer;
+}
+
+.form-input-btn:hover {
+  background: white;
+  color: #541caf;
+}
+
+
