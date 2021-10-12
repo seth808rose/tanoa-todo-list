@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
+    <title>Hawaiian Food Menu</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
@@ -16,25 +16,39 @@
     />
   </head>
   <body>
-    <header class="todo-title">
-      <h1>Tanoa's Todo List</h1>
-    </header>
-    
-    <!-- form -->
-    <form>
-      <input type="text" class="form-input" />
-      <button class="form-input-btn" type="submit">
-        <i class="fas fa-plus-square"></i>
-      </button>
-    </form>
-
-    <!-- list container -->
-    <div class="todo-container">
-      <ul class="todo-list">
-        <li></li>
-      </ul>
-    </div>
-
+    <section class="menu">
+      <!-- title -->
+      <div class="title">
+        <h2>da menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- filter button-->
+      <!-- menu items -->
+      <div class="section-center">
+        <!-- single item -->
+        <article class="menu-item">
+          <img
+            src="./images/shrimp-poke-plate.jpg"
+            class="photo"
+            alt="menu item"
+          />
+          <div class="item-info">
+            <header>
+              <h4>shrimp poke</h4>
+              <h4 class="price">$13.99</h4>
+            </header>
+            <div class="thin-underline"></div>
+            <p class="item-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              voluptate totam fugit. Quaerat ab, voluptatibus fuga itaque at
+              corporis dolore!
+            </p>
+          </div>
+        </article>
+        <!-- end single item -->
+      </div>
+    </section>
+    <!-- javascript -->
     <script src="./app.js"></script>
   </body>
 </html>
